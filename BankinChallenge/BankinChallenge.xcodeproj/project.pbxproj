@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57334F492774DF63004E9F97 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57334F482774DF63004E9F97 /* UIColor.swift */; };
 		57BAC12027731C0100AC63C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BAC11F27731C0100AC63C9 /* AppDelegate.swift */; };
 		57BAC12227731C0100AC63C9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BAC12127731C0100AC63C9 /* SceneDelegate.swift */; };
 		57BAC12427731C0100AC63C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BAC12327731C0100AC63C9 /* ViewController.swift */; };
@@ -15,6 +16,16 @@
 		57BAC13727731C0900AC63C9 /* BankinChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BAC13627731C0900AC63C9 /* BankinChallengeTests.swift */; };
 		57BAC14127731C0900AC63C9 /* BankinChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BAC14027731C0900AC63C9 /* BankinChallengeUITests.swift */; };
 		57BAC14327731C0900AC63C9 /* BankinChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BAC14227731C0900AC63C9 /* BankinChallengeUITestsLaunchTests.swift */; };
+		57BAC15527731F0800AC63C9 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BAC15427731F0800AC63C9 /* APIService.swift */; };
+		57BAC15727731F3D00AC63C9 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BAC15627731F3D00AC63C9 /* Header.swift */; };
+		57BAC159277320BD00AC63C9 /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BAC158277320BD00AC63C9 /* Endpoints.swift */; };
+		57BAC15B2773212600AC63C9 /* DatasListBanks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BAC15A2773212600AC63C9 /* DatasListBanks.swift */; };
+		57BAC15D2773279200AC63C9 /* Host.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BAC15C2773279200AC63C9 /* Host.swift */; };
+		57BAC15F27732B3500AC63C9 /* ErrorAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BAC15E27732B3500AC63C9 /* ErrorAPI.swift */; };
+		57BAC1622773480C00AC63C9 /* CellBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BAC1612773480C00AC63C9 /* CellBank.swift */; };
+		57BAC16427734E2D00AC63C9 /* ListOfBanksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BAC16327734E2D00AC63C9 /* ListOfBanksView.swift */; };
+		57BAC16A27736AE700AC63C9 /* Bank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BAC16927736AE700AC63C9 /* Bank.swift */; };
+		57BAC16D2774760B00AC63C9 /* ListOfBanksDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BAC16C2774760B00AC63C9 /* ListOfBanksDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		57334F482774DF63004E9F97 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		57BAC11C27731C0100AC63C9 /* BankinChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BankinChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57BAC11F27731C0100AC63C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57BAC12127731C0100AC63C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +59,16 @@
 		57BAC13C27731C0900AC63C9 /* BankinChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BankinChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		57BAC14027731C0900AC63C9 /* BankinChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankinChallengeUITests.swift; sourceTree = "<group>"; };
 		57BAC14227731C0900AC63C9 /* BankinChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankinChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		57BAC15427731F0800AC63C9 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		57BAC15627731F3D00AC63C9 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		57BAC158277320BD00AC63C9 /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
+		57BAC15A2773212600AC63C9 /* DatasListBanks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatasListBanks.swift; sourceTree = "<group>"; };
+		57BAC15C2773279200AC63C9 /* Host.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Host.swift; sourceTree = "<group>"; };
+		57BAC15E27732B3500AC63C9 /* ErrorAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorAPI.swift; sourceTree = "<group>"; };
+		57BAC1612773480C00AC63C9 /* CellBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellBank.swift; sourceTree = "<group>"; };
+		57BAC16327734E2D00AC63C9 /* ListOfBanksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfBanksView.swift; sourceTree = "<group>"; };
+		57BAC16927736AE700AC63C9 /* Bank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bank.swift; sourceTree = "<group>"; };
+		57BAC16C2774760B00AC63C9 /* ListOfBanksDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfBanksDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +96,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		57334F472774DF51004E9F97 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				57334F482774DF63004E9F97 /* UIColor.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		57BAC11327731C0100AC63C9 = {
 			isa = PBXGroup;
 			children = (
@@ -98,11 +128,13 @@
 			isa = PBXGroup;
 			children = (
 				57BAC14F27731C1900AC63C9 /* Common */,
+				57BAC15327731E9F00AC63C9 /* API Service */,
+				57BAC16B2774755D00AC63C9 /* Protocol */,
 				57BAC15127731D5300AC63C9 /* Model */,
 				57BAC15227731D7500AC63C9 /* View */,
 				57BAC15027731C2900AC63C9 /* Controller */,
-				57BAC12A27731C0800AC63C9 /* LaunchScreen.storyboard */,
-				57BAC12827731C0800AC63C9 /* Assets.xcassets */,
+				57334F472774DF51004E9F97 /* Extension */,
+				57BAC16E2774BF8900AC63C9 /* Vendor */,
 				57BAC12D27731C0800AC63C9 /* Info.plist */,
 			);
 			path = BankinChallenge;
@@ -145,6 +177,8 @@
 		57BAC15127731D5300AC63C9 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				57BAC16F2774C05A00AC63C9 /* Datas */,
+				57BAC16927736AE700AC63C9 /* Bank.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -152,8 +186,47 @@
 		57BAC15227731D7500AC63C9 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				57BAC16327734E2D00AC63C9 /* ListOfBanksView.swift */,
+				57BAC1612773480C00AC63C9 /* CellBank.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		57BAC15327731E9F00AC63C9 /* API Service */ = {
+			isa = PBXGroup;
+			children = (
+				57BAC15427731F0800AC63C9 /* APIService.swift */,
+				57BAC15C2773279200AC63C9 /* Host.swift */,
+				57BAC158277320BD00AC63C9 /* Endpoints.swift */,
+				57BAC15627731F3D00AC63C9 /* Header.swift */,
+				57BAC15E27732B3500AC63C9 /* ErrorAPI.swift */,
+			);
+			path = "API Service";
+			sourceTree = "<group>";
+		};
+		57BAC16B2774755D00AC63C9 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				57BAC16C2774760B00AC63C9 /* ListOfBanksDelegate.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		57BAC16E2774BF8900AC63C9 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				57BAC12A27731C0800AC63C9 /* LaunchScreen.storyboard */,
+				57BAC12827731C0800AC63C9 /* Assets.xcassets */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		57BAC16F2774C05A00AC63C9 /* Datas */ = {
+			isa = PBXGroup;
+			children = (
+				57BAC15A2773212600AC63C9 /* DatasListBanks.swift */,
+			);
+			path = Datas;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,9 +359,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57BAC15D2773279200AC63C9 /* Host.swift in Sources */,
+				57334F492774DF63004E9F97 /* UIColor.swift in Sources */,
+				57BAC15F27732B3500AC63C9 /* ErrorAPI.swift in Sources */,
 				57BAC12427731C0100AC63C9 /* ViewController.swift in Sources */,
 				57BAC12027731C0100AC63C9 /* AppDelegate.swift in Sources */,
+				57BAC15727731F3D00AC63C9 /* Header.swift in Sources */,
+				57BAC15B2773212600AC63C9 /* DatasListBanks.swift in Sources */,
+				57BAC16427734E2D00AC63C9 /* ListOfBanksView.swift in Sources */,
+				57BAC159277320BD00AC63C9 /* Endpoints.swift in Sources */,
+				57BAC15527731F0800AC63C9 /* APIService.swift in Sources */,
+				57BAC16A27736AE700AC63C9 /* Bank.swift in Sources */,
+				57BAC16D2774760B00AC63C9 /* ListOfBanksDelegate.swift in Sources */,
 				57BAC12227731C0100AC63C9 /* SceneDelegate.swift in Sources */,
+				57BAC1622773480C00AC63C9 /* CellBank.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
