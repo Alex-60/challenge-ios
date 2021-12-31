@@ -8,6 +8,6 @@
 import Foundation
 
 struct ObjectsBank: Codable {
-    var sectionName : String!
-    var sectionObjects : [DatasBanks]!
+    var sectionName: String
+    var sectionObjects: [DatasBanks]
 }

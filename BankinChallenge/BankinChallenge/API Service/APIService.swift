@@ -10,8 +10,8 @@ import Foundation
 struct APIService {
     
     func getListBank(completion: @escaping(Result<DatasListBanks, ErrorAPI>) ->()) {
-        let urlTolistBanks = URL(string: Host.production.rawValue + Endpoints.listOfBanks.rawValue)!
-        var request = URLRequest(url: urlTolistBanks)
+        let urlToBankslist = URL(string: Host.production.rawValue + Endpoints.listOfBanks.rawValue)!
+        var request = URLRequest(url: urlToBankslist)
         request.httpMethod = "GET"
         request.allHTTPHeaderFields = Header().headers
         
