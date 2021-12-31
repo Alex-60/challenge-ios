@@ -54,8 +54,8 @@ class ListOfBanksView: UIView {
     func setupViews() {
         backgroundColor = .systemGray6
         addSubview(tableView)
-        tableView.addSubview(uiLabelMessageLoadBanks)
-        tableView.addSubview(uiActivityIndicator)
+        addSubview(uiLabelMessageLoadBanks)
+        addSubview(uiActivityIndicator)
     }
     
     func setupConstraints() {

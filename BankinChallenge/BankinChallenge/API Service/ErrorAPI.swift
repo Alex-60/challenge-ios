@@ -11,5 +11,5 @@ enum ErrorAPI: String, Error {
     case errorCallAPI = "Une erreure s'est produit lors de la récupération des données"
     case jsonDecodeErrorListOfBank = "Erreur lors du décodage de la liste des banques"
     case noneData = "Aucune donnée n'a été retournée"
-    case errorHTTP = "Une erreur reseau s'est produite"
+    case errorHTTP = "Une erreur réseau s'est produite"
 }

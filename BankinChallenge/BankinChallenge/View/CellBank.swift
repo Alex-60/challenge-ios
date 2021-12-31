@@ -9,6 +9,8 @@ import UIKit
 
 class CellBank: UITableViewCell {
     
+    let apiService = APIService()
+    
     let uiImageLogo: UIImageView = {
         let image = UIImageView()
         image.translatesAutoresizingMaskIntoConstraints = false
@@ -55,4 +57,27 @@ class CellBank: UITableViewCell {
         ])
     }
 
+    func createCellWithDataBank(datas: DatasBanks) {
+        uiLabelnameOfTheBank.text = datas.name
+        uiLabelnameOfTheBank.textColor = datas.primaryColor != "" ?  UIColor(hex: datas.primaryColor ?? "#444444") : UIColor(hex: "#444444")
+        
+        if let logoURL = datas.logoURL {
+            guard let newURL = URL(string: logoURL) else {
+                uiImageLogo.isHidden = true
+                return
+            }
+            apiService.downloadImage(from: newURL){ response  in
+                DispatchQueue.main.async {
+                    if let data = response {
+                        self.uiImageLogo.isHidden = false
+                        self.uiImageLogo.image = UIImage(data: data)
+                    } else {
+                        self.uiImageLogo.isHidden = true
+                    }
+                }
+            }
+        } else {
+            uiImageLogo.isHidden = true
+        }
+    }
 }
