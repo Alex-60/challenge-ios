@@ -71,6 +71,7 @@
 		57F76BEA277F2420003FCEA9 /* ObjectsBankTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectsBankTest.swift; sourceTree = "<group>"; };
 		57F76BED277F28BF003FCEA9 /* APIServiceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServiceTest.swift; sourceTree = "<group>"; };
 		57F76BEF277F3491003FCEA9 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		57F76BF1277F41B0003FCEA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +146,7 @@
 				57BAC15027731C2900AC63C9 /* Controller */,
 				57334F472774DF51004E9F97 /* Extension */,
 				57BAC16E2774BF8900AC63C9 /* Vendor */,
+				57F76BF1277F41B0003FCEA9 /* Assets.xcassets */,
 				57BAC12D27731C0800AC63C9 /* Info.plist */,
 			);
 			path = BankinChallenge;
