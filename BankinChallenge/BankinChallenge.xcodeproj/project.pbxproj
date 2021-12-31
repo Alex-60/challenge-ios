@@ -21,7 +21,6 @@
 		57BAC1622773480C00AC63C9 /* CellBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BAC1612773480C00AC63C9 /* CellBank.swift */; };
 		57BAC16427734E2D00AC63C9 /* ListOfBanksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BAC16327734E2D00AC63C9 /* ListOfBanksView.swift */; };
 		57BAC16A27736AE700AC63C9 /* BanksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BAC16927736AE700AC63C9 /* BanksViewModel.swift */; };
-		57F76BE3277DD529003FCEA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57F76BE2277DD529003FCEA9 /* Assets.xcassets */; };
 		57F76BE6277DDA03003FCEA9 /* ObjectsBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F76BE5277DDA03003FCEA9 /* ObjectsBank.swift */; };
 		57F76BE9277F2118003FCEA9 /* DatasListBanksTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F76BE8277F2118003FCEA9 /* DatasListBanksTest.swift */; };
 		57F76BEB277F2420003FCEA9 /* ObjectsBankTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F76BEA277F2420003FCEA9 /* ObjectsBankTest.swift */; };
@@ -65,7 +64,6 @@
 		57BAC1612773480C00AC63C9 /* CellBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellBank.swift; sourceTree = "<group>"; };
 		57BAC16327734E2D00AC63C9 /* ListOfBanksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfBanksView.swift; sourceTree = "<group>"; };
 		57BAC16927736AE700AC63C9 /* BanksViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BanksViewModel.swift; sourceTree = "<group>"; };
-		57F76BE2277DD529003FCEA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../../../../../Desktop/worldBeers-master/WorldBeers/Assets.xcassets"; sourceTree = "<group>"; };
 		57F76BE5277DDA03003FCEA9 /* ObjectsBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectsBank.swift; sourceTree = "<group>"; };
 		57F76BE8277F2118003FCEA9 /* DatasListBanksTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatasListBanksTest.swift; sourceTree = "<group>"; };
 		57F76BEA277F2420003FCEA9 /* ObjectsBankTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectsBankTest.swift; sourceTree = "<group>"; };
@@ -202,7 +200,6 @@
 		57BAC16E2774BF8900AC63C9 /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
-				57F76BE2277DD529003FCEA9 /* Assets.xcassets */,
 				57BAC12A27731C0800AC63C9 /* LaunchScreen.storyboard */,
 			);
 			path = Vendor;
@@ -338,7 +335,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57F76BE3277DD529003FCEA9 /* Assets.xcassets in Resources */,
 				57BAC12C27731C0800AC63C9 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
